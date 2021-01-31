@@ -1,9 +1,3 @@
-/**
-   BasicHTTPClient.ino
-
-    Created on: 24.05.2015
-
-*/
 
 #include <Arduino.h>
 
@@ -35,8 +29,8 @@ pinMode(D8,OUTPUT);
   }
 
   WiFi.mode(WIFI_STA);
-  WiFiMulti.addAP("i net fiber", "9030423942");
-  WiFiMulti.addAP("rahul", "rahul1432");
+  WiFiMulti.addAP("ifiber", "   ");
+  WiFiMulti.addAP("rahul", "rahul12");
 
 }
 
@@ -90,10 +84,8 @@ if(payload=="1OFF2OFF3OFF"|| payload=="1OFF2ON3OFF"|| payload=="1OFF2OFF3ON" || 
 }
  if(payload=="1OFF2OFF3ON"|| payload=="1OFF2ON3ON"|| payload=="1ON2OFF3ON"|| payload=="1ON2ON3ON"){ // 1OFF2OFF3ON 1OFF2ON3ON 1ON2OFF3ON 1ON2ON3ON
   digitalWrite(D8,HIGH);
-}/*
-else if(){
-  digitalWrite();
-}*/    delay(1000);
+}
+   delay(1000);
 
        x++;
         }
