@@ -30,7 +30,7 @@ pinMode(D8,OUTPUT);
 
   WiFi.mode(WIFI_STA);
   WiFiMulti.addAP("ifiber", "   ");
-  WiFiMulti.addAP("rahul", "rahul12");
+  WiFiMulti.addAP("YOUR WIFI NAME or SSID ", "WIFI PASSWORD ");
 
 }
 
